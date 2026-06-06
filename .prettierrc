@@ -10,6 +10,12 @@
 			"options": {
 				"parser": "svelte"
 			}
+		},
+		{
+			"files": ["*.md", "*.markdown"],
+			"options": {
+				"proseWrap": "always"
+			}
 		}
 	],
 	"tailwindStylesheet": "./src/routes/layout.css"
