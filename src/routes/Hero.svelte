@@ -1,5 +1,5 @@
 <script lang="ts">
-	import profile from '$lib/assets/profile.jpg';
+	import profile from '$lib/assets/profile.webp';
 </script>
 
 <section
