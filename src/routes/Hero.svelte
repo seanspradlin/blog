@@ -14,7 +14,7 @@
 			/>
 		</div>
 		<p class="mb-4">
-			I'm <strong class="text-text-strong text-rp-rose">Sean Spradlin</strong>, a substitute
+			I'm <strong class="text-text-strong text-rp-pine">Sean Spradlin</strong>, a substitute
 			teacher-turned-programmer. I've been doing this professionally since jQuery and Bootstrap were
 			hot, and unprofessionally since SimCity 2000.
 		</p>

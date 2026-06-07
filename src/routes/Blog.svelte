@@ -27,13 +27,13 @@
 				href={resolve('/blog/[slug]', { slug: blog.slug })}
 			>
 				<div class="grow">
-					<div class="mb-2 flex items-center gap-3 text-xs text-rp-muted">
+					<div class="mb-2 flex items-center gap-3 text-xs">
 						<span>{postYear(blog.date)}</span>
 						<span class="h-0.5 w-0.5 rounded-full bg-current" aria-hidden="true"></span>
 						<span>{readingTimeLabel(blog.readingTime)}</span>
 					</div>
 					<h3
-						class="duration-fast mb-2 font-display text-2xl font-bold tracking-tight text-rp-rose"
+						class="duration-fast mb-2 font-display text-2xl font-bold tracking-tight text-rp-pine"
 					>
 						{blog.title}
 					</h3>
