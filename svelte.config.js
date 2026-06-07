@@ -7,7 +7,14 @@ const config = {
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
 	},
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			images: {
+				sizes: [640, 828, 1200, 1920, 3840],
+				formats: ['image/avif', 'image/webp'],
+				minimumCacheTTL: 300,
+				domains: ['seanspradlin.com', 'www.seanspradlin.com']
+			}
+		}),
 		alias: {
 			$content: './.velite'
 		}
