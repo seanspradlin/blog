@@ -11,7 +11,7 @@
 		>&larr; Home</a
 	>
 	{#if data.cover}
-		<img src={optimize(data.cover.src)} alt="" class="mb-4 rounded-lg" />
+		<img srcset={optimize(data.cover.src, [340, 640, 828, 1200])} alt="" class="mb-4 rounded-lg" />
 	{/if}
 	<div class="mx-auto prose">
 		<h1>{data.title}</h1>

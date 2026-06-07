@@ -1,5 +1,6 @@
 <script lang="ts">
 	import profile from '$lib/assets/profile.webp';
+	import { optimize } from '$lib/image';
 </script>
 
 <section id="hero" class="mx-auto max-w-5xl md:my-8 lg:my-16 xl:my-32">
@@ -7,7 +8,7 @@
 	<div class="text-muted font-body">
 		<div class="float-right mb-2 ml-4 aspect-square w-48 md:w-56 lg:w-64" aria-hidden="true">
 			<img
-				src={profile}
+				srcset={optimize(profile, [256, 340])}
 				alt="Portrait of Sean Spradlin"
 				fetchpriority="high"
 				class="border-subtle block aspect-square w-full rounded-xl border-4 object-cover object-top shadow-md saturate-75"
