@@ -2,7 +2,7 @@
 	<h2 class="font-display text-3xl font-bold">Projects</h2>
 	<hr class="mb-8" />
 	<div class="flex flex-col gap-8 lg:flex-row">
-		<div class="flex flex-col gap-8 rounded-xl bg-rp-surface p-8 shadow hover:shadow-lg">
+		<div class="flex flex-1 flex-col gap-8 rounded-xl bg-rp-surface p-8 shadow hover:shadow-lg">
 			<h3 class="flex items-center gap-2 font-display text-2xl font-bold">
 				<span class="icon-[ri--fire-fill] text-rp-rose"></span>
 				Bonfire
@@ -38,7 +38,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="flex flex-col gap-8 rounded-xl bg-rp-surface p-8 shadow hover:shadow-lg">
+		<div class="flex flex-1 flex-col gap-8 rounded-xl bg-rp-surface p-8 shadow hover:shadow-lg">
 			<h3 class="flex items-center gap-2 font-display text-2xl font-bold">
 				<span class="icon-[ri--sword-line] text-rp-pine"></span>SaGa Retinue Builder
 			</h3>
