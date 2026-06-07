@@ -19,9 +19,11 @@
 	--color-rp-highlight-low: hsl(25deg, 35%, 93%);
 	--color-rp-highlight-med: hsl(10deg, 9%, 86%);
 	--color-rp-highlight-high: hsl(315deg, 4%, 80%);
-	--font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-	--font-serif: 'Source Serif 4', Charter, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
-	--font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+	--font-sans:
+		'Hanken Grotesk Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+	--font-serif:
+		'Source Serif 4 Variable', Charter, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+	--font-mono: 'JetBrains Mono Variable', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 	--font-display: var(--font-sans);
 	--font-body: var(--font-serif);
 	--font-ui: var(--font-sans);

@@ -1,4 +1,11 @@
 <script lang="ts">
+	// Self-hosted fonts (bundled by Vite, served same-origin with font-display: swap).
+	// Replaces the render-blocking third-party request to fonts.googleapis.com.
+	import '@fontsource-variable/hanken-grotesk';
+	import '@fontsource-variable/source-serif-4/opsz.css';
+	import '@fontsource-variable/source-serif-4/opsz-italic.css';
+	import '@fontsource-variable/jetbrains-mono';
+	import '@fontsource-variable/jetbrains-mono/wght-italic.css';
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 
@@ -7,11 +14,5 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap"
-		rel="stylesheet"
-	/>
 </svelte:head>
 {@render children()}
