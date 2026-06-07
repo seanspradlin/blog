@@ -7,6 +7,7 @@ const config = {
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
 	},
 	kit: {
+		inlineStyleThreshold: 60000,
 		adapter: adapter({
 			images: {
 				sizes: [256, 340, 640, 828, 1200, 1920, 3840],
