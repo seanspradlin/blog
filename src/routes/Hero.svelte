@@ -1,3 +1,7 @@
+<script lang="ts">
+	import profile from '$lib/assets/profile.jpg';
+</script>
+
 <section
 	id="hero"
 	class="wrap mx-auto flex items-center justify-between gap-16 pt-24 pb-16 md:gap-8"
@@ -17,8 +21,9 @@
 
 	<div class="lg:w-48:self-center aspect-square w-85 shrink-0" aria-hidden="true">
 		<img
-			src="/profile.jpg"
+			src={profile}
 			alt="Portrait of Sean Spradlin"
+			fetchpriority="high"
 			class="border-subtle block aspect-square w-full rounded-xl border-4 object-cover object-top shadow-md saturate-75"
 		/>
 	</div>
