@@ -8,7 +8,11 @@
 </script>
 
 <svelte:head>
-	<title>Sean Spradlin</title>
+	<title>Portfolio - Sean Spradlin</title>
+	<meta
+		name="description"
+		content="Sean Spradlin is a Nashville-based software engineer. Here lives side-projects and brain dumps he's produced."
+	/>
 </svelte:head>
 
 <main class="container mx-auto p-4">

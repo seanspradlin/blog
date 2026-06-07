@@ -6,6 +6,11 @@
 	let { data }: PageProps = $props();
 </script>
 
+<svelte:head>
+	<title>{data.title} — Sean Spradlin</title>
+	<meta name="description" content={data.excerpt} />
+</svelte:head>
+
 <div class="mx-auto my-8 max-w-xl lg:my-16">
 	<a href={resolve('/')} class="mb-6 inline-block text-sm text-gray-500 hover:text-gray-700"
 		>&larr; Home</a
