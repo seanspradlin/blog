@@ -1,2 +1,73 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+@plugin '@iconify/tailwind4';
+
+/* Credit to https://github.com/rose-pine/tailwind-css */
+@theme {
+	--color-rp-base: hsl(32deg, 57%, 95%);
+	--color-rp-surface: hsl(35deg, 100%, 98%);
+	--color-rp-overlay: hsl(33deg, 43%, 91%);
+	--color-rp-muted: hsl(257deg, 9%, 61%);
+	--color-rp-subtle: hsl(248deg, 12%, 52%);
+	--color-rp-text: hsl(248deg, 19%, 40%);
+	--color-rp-love: hsl(343deg, 35%, 55%);
+	--color-rp-gold: hsl(35deg, 81%, 56%);
+	--color-rp-rose: hsl(3deg, 53%, 67%);
+	--color-rp-pine: hsl(197deg, 53%, 34%);
+	--color-rp-foam: hsl(189deg, 30%, 48%);
+	--color-rp-iris: hsl(268deg, 21%, 57%);
+	--color-rp-highlight-low: hsl(25deg, 35%, 93%);
+	--color-rp-highlight-med: hsl(10deg, 9%, 86%);
+	--color-rp-highlight-high: hsl(315deg, 4%, 80%);
+	--font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+	--font-serif: 'Source Serif 4', Charter, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+	--font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+	--font-display: var(--font-sans);
+	--font-body: var(--font-serif);
+	--font-ui: var(--font-sans);
+	--font-code: var(--font-mono);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background: var(--color-rp-base);
+	color: var(--color-rp-text);
+	font-family: var(--font-body);
+	font-size: var(--text-lg);
+	line-height: 1.7;
+	font-weight: 400;
+	overflow-x: hidden;
+}
+
+::selection {
+	background: var(--color-rp-highlight-med);
+}
+
+:focus-visible {
+	outline: none;
+	box-shadow: var(0 0 0 3px rgba(40, 105, 131, 0.28));
+	border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.001ms !important;
+		transition-duration: 0.001ms !important;
+	}
+}
