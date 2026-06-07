@@ -17,7 +17,7 @@
 	}
 </script>
 
-<section id="blog" class="my-32">
+<section id="blog" class="my-16 lg:my-32">
 	<h2 class="font-display text-3xl font-bold">Blog</h2>
 	<hr class="mb-8" />
 	<div class="flex flex-col gap-4">

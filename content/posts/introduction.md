@@ -4,11 +4,6 @@ date: 2026-06-05
 cover: 'introduction-cover.jpg'
 ---
 
-# Introduction
-
-I'm Sean Spradlin, a substitute teacher-turned-programmer. I've been doing this professionally since
-jQuery and Bootstrap were the hotness, and unprofessionally since SimCity 2000.
-
 I am creating this blog as a repository for my thoughts and retrospectives so that they can later be
 processed into slop. It is my hope that by writing these ideas out, I will internalize some of these
 lessons, or at least provide some utility to someone else out there on the free-range internet. At
