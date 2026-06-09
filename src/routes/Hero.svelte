@@ -1,6 +1,7 @@
 <script lang="ts">
 	import profile from '$lib/assets/profile.webp';
 	import { optimize } from '$lib/image';
+	import { resolve } from '$app/paths';
 </script>
 
 <section id="hero" class="mx-auto max-w-5xl md:my-8 lg:my-16 xl:my-32">
@@ -43,6 +44,16 @@
 			>
 				<div class="flex flex-row items-center gap-2">
 					<span class="icon-[ri--linkedin-fill]"></span> LinkedIn
+				</div>
+			</a>
+		</li>
+		<li>
+			<a
+				href={resolve('/resume')}
+				class="inline-block rounded border border-rp-text px-2 py-1 font-semibold text-rp-pine no-underline shadow transition-colors duration-200 hover:text-rp-foam hover:underline"
+			>
+				<div class="flex flex-row items-center gap-2">
+					<span class="icon-[ri--file-text-fill]"></span> Resume
 				</div>
 			</a>
 		</li>
