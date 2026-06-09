@@ -29,12 +29,12 @@
 	</div>
 	<div class="mt-8">
 		<h2 class="font-display text-3xl font-bold text-rp-foam">Skills</h2>
-		<dl class="tracking-snug grid grid-cols-[max-content_1fr] gap-3 leading-snug">
+		<dl class="tracking-snug leading-snug md:grid md:grid-cols-[max-content_1fr] md:gap-3">
 			<dt class="font-display font-semibold">Languages & Frameworks:</dt>
 			<dd>TypeScript, Node.js, React, Next.js, Svelte, NestJS, Python, C#, Godot</dd>
-			<dt class="font-display font-semibold">Infrastructure:</dt>
+			<dt class="mt-2 font-display font-semibold md:mt-0">Infrastructure:</dt>
 			<dd>Terraform, AWS, Docker, Postgres, Redis, GitHub Actions, Snowflake</dd>
-			<dt class="font-display font-semibold">Architecture:</dt>
+			<dt class="mt-2 font-display font-semibold md:mt-0">Architecture:</dt>
 			<dd>Containerization, Distributed Systems, API Design, MCP Servers, Edge Deployments</dd>
 		</dl>
 	</div>
