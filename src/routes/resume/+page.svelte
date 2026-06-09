@@ -2,6 +2,14 @@
 	import { resolve } from '$app/paths';
 </script>
 
+<svelte:head>
+	<title>Resume — Sean Spradlin</title>
+	<meta
+		name="description"
+		content="Sean Spradlin's professional resume detailing experience, skills, and accomplishments."
+	/>
+</svelte:head>
+
 <main class="container mx-auto max-w-[80ch] p-4">
 	<a href={resolve('/')} class="mb-6 inline-block text-sm text-gray-500 hover:text-gray-700"
 		>&larr; Home</a
