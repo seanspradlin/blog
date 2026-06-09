@@ -1,5 +1,13 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import { SITE_URL, person, jsonLdScript } from '$lib/jsonld';
+
+	const schema = {
+		'@context': 'https://schema.org',
+		'@type': 'ProfilePage',
+		url: `${SITE_URL}/resume`,
+		mainEntity: { ...person, jobTitle: 'Software Engineer | Technical Lead' }
+	};
 </script>
 
 <svelte:head>
@@ -8,6 +16,7 @@
 		name="description"
 		content="Sean Spradlin's professional resume detailing experience, skills, and accomplishments."
 	/>
+	{@html jsonLdScript(schema)}
 </svelte:head>
 
 <main class="container mx-auto max-w-[80ch] p-4">
